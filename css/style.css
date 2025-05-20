@@ -323,6 +323,11 @@ footer {
 
 
 /* about section */
+.clr {
+  color: #252525;
+  font-family: inter, sans-serif;
+}
+
 #about h3 {
     margin-top: 0px;
 }
