@@ -502,7 +502,17 @@ footer {
 
 
 
-/* contact section  */
+/* contact section */
+#contact {
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact .section-title {
+  text-align: center;
+}
+
 #contact .form-control {
   background: transparent;
   border: 1px solid #f0f0f0;
@@ -517,7 +527,9 @@ footer {
   border-color: #999;
 }
 
-#contact input {height: 55px;}
+#contact input {
+  height: 55px;
+}
 
 #contact input[type='submit'] {
   background: #242424;
@@ -534,6 +546,35 @@ footer {
   background: #f1c11a;
 }
 
+/* İletişim bilgileri listesi için stil */
+.contact-info {
+  list-style: none;
+  padding-left: 0;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.contact-info li {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #828282;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  color: #f1c11a;
+}
+
+/* Form geri bildirim mesajı için stil */
+#form-message.success {
+  color: #28a745; /* Yeşil renk - başarılı mesaj */
+  font-size: 16px;
+}
+
+#form-message.error {
+  color: #dc3545; /* Kırmızı renk - hata mesajı */
+  font-size: 16px;
+}
 
 /* footer section  */
 footer {
