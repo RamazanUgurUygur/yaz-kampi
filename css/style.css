@@ -496,6 +496,8 @@ footer {
 .content {
   text-align: center;
   padding: 10px;
+  font-family: Inter, sans-serif;
+  color: black;
 }
 
 
